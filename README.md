@@ -67,9 +67,18 @@ Personal web design
 			}
 		</script>
 		<div class="col-5 padding-12 center conbox">
-      <img src="images/gmail.png" alt="gmail">
-			<img src="images/line.png" alt="line">
-      <img src="images/ig.png" alt="ig">
+			<div class="tooltip">
+				<a href="mailto:jennie@student.umn.ac.id"><img src="images/gmail.png" alt="gmail"></a>
+				<span class="tooltiptext">jennie@student.umn.ac.id</span>
+			</div>
+			<div class="tooltip">
+				<a href="http://line.me/ti/p/~jennie_florensia"><img src="images/line.png" alt="line"></a>
+				<span class="tooltiptext">ID : jennie_florensia</span>
+			</div>
+			<div class="tooltip">
+				<a href="https://instagram.com/tastelesstofu"><img src="images/ig.png" alt="ig"></a>
+				<span class="tooltiptext">@tastelesstofu</span>
+			</div>
 		</div>
 	</body>
 	</html>
