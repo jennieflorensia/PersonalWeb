@@ -19,8 +19,8 @@ Personal web design
 				<ul>
 					<li class="col-2"><a href="home.html"><img src="images/home-button.png" alt="Home"></a></li>
 					<li class="col-2"><a href="aboutme.html">About Me</a></li>
-					<li class="col-2"><a href="portfolio.html">Portfolio</a></li>
 					<li class="col-2"><a href="gallery.html">Gallery</a></li>
+					<li class="col-2"><a href="comment.html">Comment</a></li>
 				</ul>
 			</nav>
 		</div>
