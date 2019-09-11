@@ -1,0 +1,347 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Gayathri', sans-serif;
+}
+
+@media only screen and (min-width: 600px){
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px){
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+.padding-8{
+	padding: 8px;
+}
+
+.padding-16{
+	padding: 16px;
+}
+
+.padding-32{
+	padding: 32px;
+}
+
+.padding-64{
+	padding: 64px;
+}
+
+.paddint-128{
+	padding: 128px;
+}
+
+.black{
+	background-color: black;
+	color: white;
+}
+
+.center{
+	text-align: center;
+}
+
+.bar{
+	display: inline-block;
+	float: right;
+	padding-bottom: 100px;
+}
+
+.bar li{
+	display: inline-block;
+}
+
+.bar li a{
+	text-decoration: none;
+	color: white;
+}
+
+.bar img{
+	width: 1em;
+	height: 1em;
+}
+
+h1{
+	font-size: 64px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+#top{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.mySlides {
+	display: none;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 100px auto auto auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.white{
+	background-color: rgba(255,255,255,0.2);
+	color: white;
+}
+
+.daftar{
+	text-align: left;
+}
+
+.conbox{
+	float: left;
+	margin: 0.5em;
+}
+
+.conbox img{
+	width: 2em;
+	height: 2em;
+	margin : 10px;
+}
+
+.gbr{
+	position: relative;
+}
+
+.gbr img{
+	border-radius: 200px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto auto -5px;
+}
+
+.konten{
+	margin:150px auto auto auto;
+	padding:200px 20px 20px 20px;
+}
+
+.marwan img{
+	width: 5em;
+	height: 5em;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.boximg{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	padding-left: 100px;
+	margin-top: 50px;
+}
+
+.pic{
+	width: 250px;
+	height: 250px;
+}
+
+#album img:hover{
+	transform: scale(1.2);
+	transition-delay: 0.1s;
+}
+
+.judul{
+	margin:150px auto auto 42%;
+}
+
+.gal img{
+	width: 300px;
+	height: 300px;
+}
+
+.ssgal{
+	margin-bottom: 40px;
+	display: grid;
+	justify-content: center;
+}
+
+.form{
+	display: grid;
+	justify-content: center;
+	margin-top: 150px;
+	margin-left: 50px;
+}
+
+.form-style{
+	width: 450px;
+	font-size: 16px;
+	padding: 30px 30px 15px 30px;
+}
+
+.form-style input[type=submit],
+.form-style input[type=button],
+.form-style input[type=text],
+.form-style input[type=email],
+.form-style textarea,
+.form-style label
+{
+	font-size: 16px;
+	color: #fff;
+
+}
+
+.form-style label {
+	display:block;
+	margin-bottom: 10px;
+}
+
+.form-style label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+
+.form-style input[type=text],
+.form-style input[type=email] 
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed white;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+
+.form-style textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed white;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+
+.form-style textarea:focus, 
+.form-style input[type=text]:focus,
+.form-style input[type=email]:focus,
+.form-style input[type=email] :focus
+{
+	border-bottom: 1px dashed white;
+}
+
+.form-style input[type=submit],
+.form-style input[type=button]{
+	background: rgba(255, 255, 255, 0.2);
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: white;
+}
+.form-style input[type=submit]:hover,
+.form-style input[type=button]:hover{
+background: rgba(255, 255, 255, 0.5);
+}
